@@ -71,6 +71,7 @@
     gap: 150px;
     align-content: center;
     /* margin-left: 130px; */
+    margin-bottom: 50px;
 }
 .myplans-div{
     align-content: center;
@@ -84,4 +85,61 @@
 }
 .myplans-div p{
     color: #737272;
+    margin-top: 50px;
+}
+.image-merge{
+    background-image: url('images/gradient1.png'),url('images/watch.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    align-content: center;
+    padding-top: 20px;
+}
+.image-merge p{
+    width: 400;
+    height: 90px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+.image-merge button{
+    margin-left: 30px;
+    background-color: white;
+    color: rgb(3, 91, 126);
+    font-size: large;
+    width: 160px;
+    height: 60px;
+    border-radius: 5px;
+    border: 0;
+}
+.added-section{
+    width: 100%;
+    height: 500px;
+    background-image: url('images/butterfly3.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.footer{
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-one{
+    margin-top: 50px;
+}
+.footer-one div{
+    text-decoration: none;
+}
+.footer-form{
+    margin-top: 50px;
+}
+.footer-form input[types="button"]{
+    background-color: rgb(3, 103, 142);
+    color: white;
+    text-align: center;
+    font-size: large;
 }
