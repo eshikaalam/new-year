@@ -89,6 +89,7 @@
     </footer>
     <!-- this is my section -->
     <section class="added-section">
+        <section class="added-section-main">
         <img class="added-image" src="images/minion2.jpg" alt="pictures of Minion" width="300px" height="400px">
         <div>
             <nav class="navigation">
@@ -99,11 +100,35 @@
                 </ul>
             </nav>
         </div>
-        <div class="info">
-            <h1>HI</h1>
-            <p>Myself Minion</p>
-            <p>Nice to meet you</p>
+        <div class="added-form">
+            <form class="inside-form" action="">
+                <h1>Minion Form</h1>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your Name">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your Email">
+                <br>
+                <p>Choose your Favourite Animation</p>
+                <label class="radio">
+                    <input type="radio" name="" id="tangled" value="Tangled">Tangled
+                    <br>
+                    <input type="radio" name="" id="frozen" value="Frozen">Frozen
+                </label>
+                <br>
+                <select style="margin-top: 30px; margin-left: 3px; height: 30px;" name="" id="">
+                    <option value="Pizza">Pizza</option>
+                    <option value="BBQ">BBQ</option>
+                    <option value="Bhorta">Smashed Potato</option>
+                </select>
+                <br>
+                <div class="btn">
+                    <input type="submit" name="" id="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
         </div>
+        </section>
     </section>
     
 </body>
